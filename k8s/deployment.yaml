@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: ci-cd-app
-          image: IMAGE_PLACEHOLDER
+          image: ghcr.io/murali9026/ci-cd-app:latest
           ports:
             - containerPort: 8080
           env:
